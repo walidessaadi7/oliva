@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oliva Equestrian - Dressage Program</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            equestrianGreen: '#005a36', 
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-white font-sans antialiased text-gray-800">
+
+  <header class="w-full max-w-7xl mx-auto px-8 py-6 flex justify-between items-center bg-transparent">
+        
+    <!-- Logo Clone -->
+    <div class="flex items-center space-x-4 select-none">
+        <!-- Exact Cross Emblem Representation (SVG Perfect Geometry) -->
+        <svg class="w-10 h-10 flex-shrink-0" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Main Large Central Cross -->
+            <path d="M10 50 H90" stroke="#004D31" stroke-width="4.5" stroke-linecap="square"/>
+            <path d="M50 10 V90" stroke="#004D31" stroke-width="4.5" stroke-linecap="square"/>
+            
+            <!-- Top Vertical Accent Lines -->
+            <path d="M35 15 V40" stroke="#004D31" stroke-width="4" stroke-linecap="square"/>
+            <path d="M65 15 V40" stroke="#004D31" stroke-width="4" stroke-linecap="square"/>
+            
+            <!-- Bottom Vertical Accent Lines -->
+            <path d="M35 60 V85" stroke="#004D31" stroke-width="4" stroke-linecap="square"/>
+            <path d="M65 60 V85" stroke="#004D31" stroke-width="4" stroke-linecap="square"/>
+            
+            <!-- Left Horizontal Accent Line -->
+            <path d="M18 35 H32" stroke="#004D31" stroke-width="3.5" stroke-linecap="square"/>
+            
+            <!-- Right Horizontal Accent Line -->
+            <path d="M68 35 H82" stroke="#004D31" stroke-width="3.5" stroke-linecap="square"/>
+        </svg>
+        
+        <!-- Logo Text Geometry -->
+        <div class="flex flex-col justify-center -space-y-2">
+            <span class="serif-title text-3xl font-medium tracking-[0.12em] text-[#004D31] leading-none mb-1">OLIVA</span>
+            <span class="serif-title text-[9px] tracking-[0.26em] font-normal uppercase text-[#004D31] pl-[2px] opacity-90">EQUESTRIAN</span>
+        </div>
+    </div>
+
+    <!-- Right Side Nav -->
+    <nav class="hidden md:flex items-center space-x-10 text-[11px] font-medium tracking-[0.25em] text-[#004D31]">
+        <a href="index.html" class="hover:opacity-60 transition-all duration-200">HOME</a>
+        <a href="index1.html" class="hover:opacity-60 transition-all duration-200">PROGRAMS</a>
+        <a href="#" class="hover:opacity-60 transition-all duration-200">VENUES</a>
+        <a href="#" class="hover:opacity-60 transition-all duration-200">CONTACT</a>
+    </nav>
+</header>
+
+    <section class="max-w-6xl mx-auto px-20 py-12 md:py-4 flex items-center justify-center min-h-[600px]">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-20 items-start w-full">
+        
+        <!-- Left Column: Program Detail List -->
+        <div class="space-y-8 max-w-md justify-self-center md:justify-self-start w-full">
+          <h2 class="text-4xl font-serif text-[#005a36] mb-10 tracking-wide">
+            Program Details
+          </h2>
+    
+          <div class="space-y-6">
+            <!-- Item 1: Duration -->
+            <div class="flex items-start space-x-4">
+              <div class="text-gray-700 mt-1 flex-shrink-0">
+                <svg class="w-5 h-5 stroke-[1.5]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="text-sm font-semibold text-gray-900 tracking-wide">Duration</h4>
+                <p class="text-xs text-gray-500 font-light mt-0.5 tracking-wide">30 Days</p>
+              </div>
+            </div>
+    
+            <!-- Item 2: Start Anytime -->
+            <div class="flex items-start space-x-4">
+              <div class="text-gray-700 mt-1 flex-shrink-0">
+                <svg class="w-5 h-5 stroke-[1.5]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="text-sm font-semibold text-gray-900 tracking-wide">Start anytime</h4>
+                <p class="text-xs text-gray-500 font-light mt-0.5 tracking-wide">No fixed batches. Start on your preferred date.</p>
+              </div>
+            </div>
+    
+            <!-- Item 3: Levels -->
+            <div class="flex items-start space-x-4">
+              <div class="text-gray-700 mt-1 flex-shrink-0">
+                <svg class="w-5 h-5 stroke-[1.5]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v5.25c0 .621-.504 1.125-1.125 1.125h-2.25A1.125 1.125 0 0 1 3 18.375v-5.25ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125v-9.75ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v14.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="text-sm font-semibold text-gray-900 tracking-wide">Levels</h4>
+                <p class="text-xs text-gray-500 font-light mt-0.5 tracking-wide">All levels welcome. From beginner to professional.</p>
+              </div>
+            </div>
+    
+            <!-- Item 4: Ride our elite horses -->
+            <div class="flex items-start space-x-4">
+              <div class="text-gray-700 mt-1 flex-shrink-0">
+                <svg class="w-5 h-5 stroke-[1.5]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 21ZM12 3v18M3 12h18M5.65 5.65l12.7 12.7M5.65 18.35l12.7-12.7" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="text-sm font-semibold text-gray-900 tracking-wide">Ride our elite horses</h4>
+                <p class="text-xs text-gray-500 font-light mt-0.5 tracking-wide">Or bring your own horse</p>
+              </div>
+            </div>
+    
+            <!-- Item 5: Accommodation -->
+            <div class="flex items-start space-x-4">
+              <div class="text-gray-700 mt-1 flex-shrink-0">
+                <svg class="w-5 h-5 stroke-[1.5]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="text-sm font-semibold text-gray-900 tracking-wide">Accommodation</h4>
+                <p class="text-xs text-gray-500 font-light mt-0.5 tracking-wide">In house or walking distance from the stable</p>
+              </div>
+            </div>
+    
+            <!-- Item 6: Location -->
+            <div class="flex items-start space-x-4">
+              <div class="text-gray-700 mt-1 flex-shrink-0">
+                <svg class="w-5 h-5 stroke-[1.5]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="text-sm font-semibold text-gray-900 tracking-wide">Location</h4>
+                <p class="text-xs text-gray-500 font-light mt-0.5 tracking-wide">Asten, Netherlands</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Right Column: Media Frame & CTA Stack -->
+        <div class="w-full max-w-xl justify-self-center md:justify-self-end space-y-4">
+          <!-- Stable Image Block -->
+          <div class="aspect-[4/3] w-full overflow-hidden bg-gray-50 shadow-sm">
+            <img 
+              src="img5.png" 
+              alt="Outdoor landscape view of clean equestrian horse stalls and yard layout" 
+              class="w-full h-full object-cover object-center"
+            />
+          </div>
+    
+          <!-- Action Stack Components -->
+          <div class="space-y-3 pt-2">
+            <!-- Solid Fill Button -->
+            <a href="page4.html" class="block w-full text-center bg-[#005a36] text-white text-xs font-semibold tracking-[0.2em] py-4 uppercase transition-all duration-200 hover:bg-opacity-95 active:scale-[0.99] shadow-sm">
+              What's Included
+            </a>
+            
+            <!-- Transparent Outlined Button -->
+            <a href="#" class="block w-full text-center border border-[#005a36] text-[#005a36] bg-white text-xs font-semibold tracking-[0.2em] py-4 uppercase transition-all duration-200 hover:bg-gray-50 active:scale-[0.99] shadow-sm">
+              Price & Book
+            </a>
+          </div>
+        </div>
+    
+      </div>
+    </section>
+
+</body>
+</html>

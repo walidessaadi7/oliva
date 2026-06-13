@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oliva Equestrian Landing Page</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Fonts Match (Serif architectural font + Clean tracking font) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+        .serif-title {
+            font-family: 'Cinzel', serif;
+            letter-spacing: -0.01em;
+        }
+    </style>
+</head>
+<body class="bg-[#FAF9F5] min-h-screen flex flex-col justify-between overflow-x-hidden text-[#004D31]">
+
+    <!-- 1. Header (Exact Logo details & Navigation alignment) -->
+    <header class="w-full max-w-7xl mx-auto px-8 py-6 flex justify-between items-center bg-transparent">
+        
+        <!-- Logo Clone -->
+        <div class="flex items-center space-x-4 select-none">
+            <!-- Exact Cross Emblem Representation (SVG Perfect Geometry) -->
+            <svg class="w-10 h-10 flex-shrink-0" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Main Large Central Cross -->
+                <path d="M10 50 H90" stroke="#004D31" stroke-width="4.5" stroke-linecap="square"/>
+                <path d="M50 10 V90" stroke="#004D31" stroke-width="4.5" stroke-linecap="square"/>
+                
+                <!-- Top Vertical Accent Lines -->
+                <path d="M35 15 V40" stroke="#004D31" stroke-width="4" stroke-linecap="square"/>
+                <path d="M65 15 V40" stroke="#004D31" stroke-width="4" stroke-linecap="square"/>
+                
+                <!-- Bottom Vertical Accent Lines -->
+                <path d="M35 60 V85" stroke="#004D31" stroke-width="4" stroke-linecap="square"/>
+                <path d="M65 60 V85" stroke="#004D31" stroke-width="4" stroke-linecap="square"/>
+                
+                <!-- Left Horizontal Accent Line -->
+                <path d="M18 35 H32" stroke="#004D31" stroke-width="3.5" stroke-linecap="square"/>
+                
+                <!-- Right Horizontal Accent Line -->
+                <path d="M68 35 H82" stroke="#004D31" stroke-width="3.5" stroke-linecap="square"/>
+            </svg>
+            
+            <!-- Logo Text Geometry -->
+            <div class="flex flex-col justify-center -space-y-2">
+                <span class="serif-title text-3xl font-medium tracking-[0.12em] text-[#004D31] leading-none mb-1">OLIVA</span>
+                <span class="serif-title text-[9px] tracking-[0.26em] font-normal uppercase text-[#004D31] pl-[2px] opacity-90">EQUESTRIAN</span>
+            </div>
+        </div>
+
+        <!-- Right Side Nav -->
+        <nav class="hidden md:flex items-center space-x-10 text-[11px] font-medium tracking-[0.25em] text-[#004D31]">
+            <a href="index.html" class="hover:opacity-60 transition-all duration-200">HOME</a>
+            <a href="index1.html" class="hover:opacity-60 transition-all duration-200">PROGRAMS</a>
+            <a href="#" class="hover:opacity-60 transition-all duration-200">VENUES</a>
+            <a href="#" class="hover:opacity-60 transition-all duration-200">CONTACT</a>
+        </nav>
+    </header>
+
+    <!-- 2. Main Grid Layout -->
+    <main class="w-full max-w-7xl mx-auto px-8 flex-grow grid grid-cols-1 md:grid-cols-12 items-center relative gap-8">
+        
+        <!-- Left Column: Typography & Action -->
+        <div class="w-full md:col-span-6 flex flex-col justify-center order-2 md:order-1 z-20 md:pr-4">
+            <h1 class="serif-title text-4xl sm:text-5xl lg:text-[54px] font-medium text-[#004D31] leading-[1.2] tracking-tight">
+                Train Where <br>Champions Ride.
+            </h1>
+            
+            <div class="mt-8 space-y-1.5">
+                <p class="text-[11px] tracking-[0.28em] font-semibold text-[#004D31]/90 uppercase">
+                    NETHERLANDS.
+                </p>
+                <p class="serif-title text-[15px] italic font-light tracking-wide text-[#004D31]/80">
+                    30 Days. One Transformation.
+                </p>
+            </div>
+
+            <div class="mt-14">
+                <a href="index1.html" class="inline-block bg-[#004D31] text-[#FAF9F5] text-[10px] tracking-[0.25em] font-medium uppercase px-7 py-3.5 hover:bg-[#003622] transition-colors duration-300">
+                    EXPLORE PROGRAMS
+                </a>
+            </div>
+        </div>
+
+        <!-- Right Column: Image with exact Edge Fading mask -->
+        <div class="w-full md:col-span-6 h-[40vh] md:h-[72vh] relative order-1 md:order-2 overflow-hidden">
+            <!-- Smooth Gradient transition to match image_2026-06-12_201219799.png exact background fade -->
+            <div class="absolute inset-y-0 -left-1 w-32 bg-gradient-to-r from-[#FAF9F5] to-transparent z-10 hidden md:block"></div>
+            <div class="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-[#FAF9F5] to-transparent z-10 md:hidden"></div>
+            
+            <!-- Equestrian Asset (Exact Framing Concept) -->
+            <img 
+                src="img1.png" 
+                alt="Jumping Equestrian" 
+                class="w-full h-full object-cover object-[center_right] md:object-left mix-blend-multiply"
+            />
+        </div>
+
+    </main>
+   
+
+
+ 
+
+</body>
+</html>

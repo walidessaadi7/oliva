@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oliva Equestrian - Dressage Program</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            equestrianGreen: '#005a36', 
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-white font-sans antialiased text-gray-800">
+
+  <header class="w-full max-w-7xl mx-auto px-8 py-6 flex justify-between items-center bg-transparent">
+        
+    <!-- Logo Clone -->
+    <div class="flex items-center space-x-4 select-none">
+        <!-- Exact Cross Emblem Representation (SVG Perfect Geometry) -->
+        <svg class="w-10 h-10 flex-shrink-0" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Main Large Central Cross -->
+            <path d="M10 50 H90" stroke="#004D31" stroke-width="4.5" stroke-linecap="square"/>
+            <path d="M50 10 V90" stroke="#004D31" stroke-width="4.5" stroke-linecap="square"/>
+            
+            <!-- Top Vertical Accent Lines -->
+            <path d="M35 15 V40" stroke="#004D31" stroke-width="4" stroke-linecap="square"/>
+            <path d="M65 15 V40" stroke="#004D31" stroke-width="4" stroke-linecap="square"/>
+            
+            <!-- Bottom Vertical Accent Lines -->
+            <path d="M35 60 V85" stroke="#004D31" stroke-width="4" stroke-linecap="square"/>
+            <path d="M65 60 V85" stroke="#004D31" stroke-width="4" stroke-linecap="square"/>
+            
+            <!-- Left Horizontal Accent Line -->
+            <path d="M18 35 H32" stroke="#004D31" stroke-width="3.5" stroke-linecap="square"/>
+            
+            <!-- Right Horizontal Accent Line -->
+            <path d="M68 35 H82" stroke="#004D31" stroke-width="3.5" stroke-linecap="square"/>
+        </svg>
+        
+        <!-- Logo Text Geometry -->
+        <div class="flex flex-col justify-center -space-y-2">
+            <span class="serif-title text-3xl font-medium tracking-[0.12em] text-[#004D31] leading-none mb-1">OLIVA</span>
+            <span class="serif-title text-[9px] tracking-[0.26em] font-normal uppercase text-[#004D31] pl-[2px] opacity-90">EQUESTRIAN</span>
+        </div>
+    </div>
+
+    <!-- Right Side Nav -->
+    <nav class="hidden md:flex items-center space-x-10 text-[11px] font-medium tracking-[0.25em] text-[#004D31]">
+        <a href="index.html" class="hover:opacity-60 transition-all duration-200">HOME</a>
+        <a href="index1.html" class="hover:opacity-60 transition-all duration-200">PROGRAMS</a>
+        <a href="#" class="hover:opacity-60 transition-all duration-200">VENUES</a>
+        <a href="#" class="hover:opacity-60 transition-all duration-200">CONTACT</a>
+    </nav>
+</header>
+
+    <section class="max-w-6xl mx-auto px-20 py-12 md:py-4 flex items-center justify-center min-h-[600px]">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-20 items-center w-full">
+        
+        <!-- Left Info Content Column -->
+        <div class="space-y-8 max-w-md justify-self-center md:justify-self-start">
+          <!-- Heading & Tagline -->
+          <div>
+            <h2 class="text-4xl font-serif text-[#005a36] mb-2 tracking-wide">
+              Show Jumping
+            </h2>
+            <p class="text-sm text-gray-500 font-light tracking-wide">
+              Elevate your jump.
+            </p>
+          </div>
+    
+          <!-- Features Checklist -->
+          <ul class="space-y-4 text-sm text-gray-700 tracking-wide font-light">
+            <li class="flex items-start space-x-3">
+              <!-- Elegant circular checkmark icon -->
+              <svg class="w-4 h-4 text-gray-400 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+              </svg>
+              <span>Train with Grand Prix riders</span>
+            </li>
+            <li class="flex items-start space-x-3">
+              <svg class="w-4 h-4 text-gray-400 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+              </svg>
+              <span>Compete weekly in Netherlands and Belgium</span>
+            </li>
+            <li class="flex items-start space-x-3">
+              <svg class="w-4 h-4 text-gray-400 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+              </svg>
+              <span>Elite horses up to Grand Prix level</span>
+            </li>
+            <li class="flex items-start space-x-3">
+              <svg class="w-4 h-4 text-gray-400 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+              </svg>
+              <span>Tailor-made program for all levels</span>
+            </li>
+            <li class="flex items-start space-x-3">
+              <svg class="w-4 h-4 text-gray-400 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+              </svg>
+              <span>International exposure</span>
+            </li>
+          </ul>
+    
+          <!-- Action Button -->
+          <div class="pt-4">
+            <a href="page3.html" class="inline-block bg-[#005a36] text-white text-xs font-semibold tracking-widest px-8 py-3.5 uppercase transition-all duration-200 hover:bg-opacity-95 active:scale-95 shadow-sm">
+              View Program Details
+            </a>
+          </div>
+        </div>
+    
+        <!-- Right Media Column -->
+        <div class="w-full max-w-xl justify-self-center md:justify-self-end flex items-center justify-center">
+          <div class="aspect-[4/3] w-full overflow-hidden bg-gray-50 shadow-sm">
+            <img 
+              src="img4.png" 
+              alt="Show jumping horse clearing a colorful rail fence hurdle" 
+              class="w-full h-full object-cover object-center"
+            />
+          </div>
+        </div>
+    
+      </div>
+    </section>
+
+</body>
+</html>
